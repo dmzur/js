@@ -1,0 +1,33 @@
+*{
+    margin: 0 auto;
+    max-width: 550px;
+}
+header{
+    display: flex;
+    background-color: black;
+}
+.products{
+    display: flex;
+    background-color: rgb(104, 103, 103);
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    border-radius: 0px 0px 25px 25px;
+}
+.product-item{
+    
+    width: 200px;
+    margin-bottom: 10px;
+}
+.desc{
+    background-color: rgb(61, 58, 58);
+    border-radius: 0px 0px 25px 25px;
+    text-align: center;
+    margin-top: -5px;
+}
+.by-btn{
+    border-radius: 20px;
+    margin: 15px;
+    font-family: Georgia;
+}
