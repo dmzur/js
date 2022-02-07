@@ -32,16 +32,10 @@ header {
   margin-bottom: 10px;
 }
 
-.card_desc {
+.desc {
   background-color: #3d3a3a;
   border-radius: 0px 0px 25px 25px;
   text-align: center;
   margin-top: -5px;
-}
-
-.by-btn {
-  border-radius: 20px;
-  margin: 15px;
-  font-family: Georgia;
 }
 /*# sourceMappingURL=style.css.map */
