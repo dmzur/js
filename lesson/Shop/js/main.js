@@ -81,6 +81,8 @@ class cartList{
     constructor(container = '.cart'){
         this.container = container;
         this.goods = [];
+        
+        this._clickBasket()
         this._getProducts()
             .then(data => { 
                  this.goods = data.contents;
@@ -96,13 +98,10 @@ class cartList{
             });
        
     }
-    watchCart(){
-        let x = document.getElementsByClassName('cart');
-        if(x.style.display=="none") {
-            x.style.display = "block";
-        } else {
-            x.style.display = "none";
-        }
+    _clickBasket(){
+        document.querySelector('.btn-cart').addEventListener('click', () => {
+            document.querySelector(this.container).classList.toggle('invis');
+        });
     }
     
     render(){
@@ -122,9 +121,9 @@ class cartItem {
         this.img = img;
     }
     render(){
-        return `<div class="cart-item" data-id="${this.id}">
+        return `<div class="product-item" data-id="${this.id}">
                 <img src="${this.img}" alt="Some img">
-                <div class="cart_desc">
+                <div class="desc">
                     <h3>${this.title}</h3>
                     <p>${this.price} $</p>
                 </div>
