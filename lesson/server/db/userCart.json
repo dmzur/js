@@ -1,0 +1,27 @@
+{
+    "amount": 46600,
+    "countGoods": 2,
+    "contents": [
+        {
+            "quantity": 1,
+            "id_product": 124,
+            "imgs": "./img/keyboard.jpg",
+            "product_name": "Keyboard",
+            "price": 1600
+        },
+        {
+            "quantity": 3,
+            "id_product": 457,
+            "imgs": "./img/gamepad.jpg",
+            "product_name": "Gamepad",
+            "price": 3000
+        },
+        {
+            "quantity": 1,
+            "id_product": 123,
+            "imgs": "./img/notebook.jpg",
+            "product_name": "Ноутбук",
+            "price": 45600
+        }
+    ]
+}
